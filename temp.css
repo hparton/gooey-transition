@@ -1,0 +1,36 @@
+.pane,
+canvas {
+	position: absolute;
+}
+
+#top {
+	color: white;
+}
+
+.pane.hidden {
+	height: 0px;
+	overflow: hidden;
+}
+
+.overlay-wrapper {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.content {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	align-self: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	display: table;
+	margin: 0 auto;
+	font-family: 'Montserrat';
+	font-size: 8vw;
+	text-transform: uppercase;
+}
