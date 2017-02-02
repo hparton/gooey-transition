@@ -18,9 +18,7 @@ const swipeDown = new Animation()
   }
 
   if (time > 0.65) {
-    if (overlay.config.maxRange) {
-      overlay.config.maxRange = map(time, 0.65, 1, 200, 0)
-    }
+    overlay.config.maxRange = map(time, 0.65, 1, 200, 0)
   }
 });
 
